@@ -127,6 +127,31 @@ but leave the working directory unchanged.
 
 
 
+                        Error
+
+
+Error1:  
+
+! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/PrakashSDE/Git-GitHub-Essentials.git'
+
+Solution:
+
+git fetch origin master
+Then follow these steps to merge:
+git pull origin master
+git add .
+git commit -m 'your commit message'
+git push origin master
+
+
+
+
+
+
+
+
+
 
 
 
