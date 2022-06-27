@@ -127,7 +127,21 @@ but leave the working directory unchanged.
 
 
 
-                        Error
+                 File Modified and Push in GitHub through Git              
+
+   1) git status
+   2) git commit -m "git.txt file updated"
+   3) git add .
+   4) git push origin master
+                        
+
+
+
+
+
+
+
+Error Problem
 
 
 Error1:  
