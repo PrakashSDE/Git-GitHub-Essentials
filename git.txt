@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
                  GIT And GitHub Basic
 
                    git init
@@ -132,3 +133,5 @@ but leave the working directory unchanged.
 
 
 
+=======
+>>>>>>> 79deff6cc26f3f3a0b86218430d6d8de155ed370
