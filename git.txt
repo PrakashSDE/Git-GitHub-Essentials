@@ -151,6 +151,8 @@ error: failed to push some refs to 'https://github.com/PrakashSDE/Git-GitHub-Ess
 
 Solution:
 
+
+
 git fetch origin master
 Then follow these steps to merge:
 git pull origin master
