@@ -160,6 +160,7 @@ discard the changes from top of stash stack
    
    
    
+   
    File Modified and Push in GitHub through Git              
 
    1) git status
