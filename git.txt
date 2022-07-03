@@ -154,6 +154,22 @@ discard the changes from top of stash stack
 
 
 
+  
+  
+  
+  Push in GitHub through Git
+   
+   git init
+
+   git add .
+
+   git status
+
+   git commit -m"First commit"
+
+   git remote add origin https://github.com/PrakashSDE/JavaScript-CodeGround.git
+
+   git push -u origin master
    
    
    
