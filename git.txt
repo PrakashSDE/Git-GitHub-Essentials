@@ -398,38 +398,62 @@ d) Provides genuine stress –free migration experience.
 31) What is ‘git status’ is used for?
 As ‘Git Status’ shows you the difference between the working directory and the index, it is 
 helpful in understanding a git more comprehensively.
+
+
 32) What is the difference between the ‘git diff ’and ‘git status’?
 ‘git diff’ is similar to ‘git status’, but it shows the differences between various commits and 
 also between the working directory and index.
+
+
 33) What is the function of ‘git checkout’ in git?
 A ‘git checkout’ command is used to update directories or specific files in your working tree 
 with those from another branch without merging it in the whole branch.
+
+
 34) What is the function of ‘git rm’?
 To remove the file from the staging area and also off your disk ‘git rm’ is used.
+
+
 35) What is the function of ‘git stash apply’?
 When you want to continue working where you have left your work, ‘git stash apply’ 
 command is used to bring back the saved changes onto the working directory.
+
+
 36) What is the use of ‘git log’?
 To find specific commits in your project history- by author, date, content or history ‘git log’ is 
 used.
+
+
 37) What is ‘git add’ is used for?
 ‘git add’ adds file changes in your existing directory to your index.
+
+
 38) What is the function of ‘git reset’?
 The function of ‘Git Reset’ is to reset your index as well as the working directory to the state 
 of your last commit.
+
+
 39) What is git Is-tree?
 ‘git Is-tree’ represents a tree object including the mode and the name of each item and the 
 SHA-1 value of the blob or the tree.
+
+
 40) How git instaweb is used?
 ‘Git Instaweb’ automatically directs a web browser and runs webserver with an interface into 
 your local repository.
+
+
 41) What does ‘hooks’ consist of in git?
 This directory consists of Shell scripts which are activated after running the corresponding 
 Git commands. For example, git will try to execute the post-commit script after you run a 
 commit.
+
+
 42) Explain what is commit message?
 Commit message is a feature of git which appears when you commit a change. Git provides 
 you a text editor where you can enter the modifications made in commits.
+
+
 43) How can you fix a broken commit?
 To fix any broken commit, you will use the command “git commit—amend”. By running this 
 command, you can fix the broken commit message in the editor.
