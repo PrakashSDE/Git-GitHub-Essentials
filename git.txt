@@ -326,34 +326,52 @@ intact.
 The common way of creating branch in GIT is to maintain one as “Main“
 branch and create another branch to implement new features. This pattern is particularly 
 useful when there are multiple developers working on a single project.
+
+
 20) How can you bring a new feature in the main branch?
 To bring a new feature in the main branch, you can use a command “git merge” or “git pull 
 command”.
+
+
 21) What is a ‘conflict’ in git?
 A ‘conflict’ arises when the commit that has to be merged has some change in one place, 
 and the current commit also has a change at the same place. Git will not be able to predict 
 which change should take precedence.
+
+
 22) How can conflict in git resolved?
 To resolve the conflict in git, edit the files to fix the conflicting changes and then add the 
 resolved files by running “git add” after that to commit the repaired merge, run “git 
 commit”. Git remembers that you are in the middle of a merger, so it sets the parents of the 
 commit correctly.
+
+
 23) To delete a branch what is the command that is used?
 Once your development branch is merged into the main branch, you don’t need
 development branch. To delete a branch use, the command “git branch –d [head]”.
+
+
 24) What is another option for merging in git?
 “Rebasing” is an alternative to merging in git.
+
+
 25) What is the syntax for “Rebasing” in Git?
 The syntax used for rebase is “git rebase [new-commit] “
+
+
 26) What is the difference between ‘git remote’ and ‘git clone’?
 ‘git remote add’ just creates an entry in your git config that specifies a name for a particular 
 URL. While, ‘git clone’ creates a new git repository by copying and existing one located at 
 the URI.
+
+
 27) What is GIT version control?
 With the help of GIT version control, you can track the history of a collection of files and 
 includes the functionality to revert the collection of files to another version. Each version 
 captures a snapshot of the file system at a certain point of time. A collection of files and 
 their complete history are stored in a repository.
+
+
 28) Mention some of the best graphical GIT client for LINUX?
 Some of the best GIT client for LINUX is
 a) Git Cola
@@ -362,6 +380,8 @@ c) Smart git
 d) Giggle
 e) Git GUI
 f) qGit
+
+
 29) What is Subgit? Why to use Subgit?
 ‘Subgit’ is a tool for a smooth, stress-free SVN to Git migration. Subgit is a solution for a 
 company -wide migration from SVN to Git that is:
@@ -369,8 +389,12 @@ a) It is much better than git-svn
 b) No requirement to change the infrastructure that is already placed
 c) Allows to use all git and all sub-version features
 d) Provides genuine stress –free migration experience.
+
+
 30) What is the function of ‘git diff ’ in git?
 ‘git diff ’ shows the changes between commits, commit and working tree etc.
+
+
 31) What is ‘git status’ is used for?
 As ‘Git Status’ shows you the difference between the working directory and the index, it is 
 helpful in understanding a git more comprehensively.
