@@ -457,6 +457,7 @@ you a text editor where you can enter the modifications made in commits.
 To fix any broken commit, you will use the command “git commit—amend”. By running this 
 command, you can fix the broken commit message in the editor.
 
+The Data is Given form 
 
 
 
