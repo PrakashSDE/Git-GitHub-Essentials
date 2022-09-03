@@ -1,6 +1,6 @@
 
-<<<<<<< HEAD
-                 GIT And GitHub Basic
+ <<<<<<< HEAD
+               GIT And GitHub Basic
 
                    git init
 
