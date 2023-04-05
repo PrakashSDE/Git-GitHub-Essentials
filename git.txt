@@ -4,8 +4,7 @@
 
                    git init
 
-Create empty Git repo in specified directory. Run with no
-arguments to initialize the current directory as a git repository.
+The git init command is used to create a new Git repository in a directory on your local machine. It initializes a new Git repository, which means that it creates the necessary files and directories that Git uses to keep track of changes in your code.
 
 
                   
@@ -18,8 +17,16 @@ located on the local filesystem or on a remote machine via HTTP or SSH.
                   
                    git config
 
-Define author name to be used for all commits in current repo. Devs
-commonly use --global flag to set config options for current user
+In Git, the git config command is used to set or retrieve configuration settings that control the behavior of Git. These configuration settings can be global, applied to all repositories on your system, or local, applied to a specific repository.
+
+Example- 1)git config --global user.name   -->>for showing the user name.
+         2)git config --global user.name "Your Name"    -->To set the user name.
+         3)git config --global user.email "Your Email Address"   -->To Set the Email Address
+         4)git config --list    -->> to check the current configuration settings.
+         5)git config --global core.editor "nano"   -->> To set your preferred text editor.
+         6)gti config --global core.sshCommand "ssh -i /path/to/ssh/key"   -->>To configure Git to use a specific SSH key for authentication.
+         7)git config --global init.defaultBranch main  -->>To set Git to always a use a specific branch.
+
 
 
                    
