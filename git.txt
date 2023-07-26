@@ -1,6 +1,9 @@
 
  <<<<<<< HEAD
-               GIT And GitHub Basic
+
+    Prakash-dev 
+    
+             GIT And GitHub Basic
 
                    git init
 
